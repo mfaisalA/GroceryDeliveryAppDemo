@@ -1,0 +1,48 @@
+/* navbar */
+.sidebar {
+}
+/* Title */
+.sidebar .navbar-brand {
+    color: white;
+}
+.sidebar .navbar-brand img{
+    width: 25px;
+}
+
+.sidebar .navbar-brand:hover,
+.sidebar .navbar-brand:focus {
+    color: #eceece;
+}
+ 
+/* Link */
+.sidebar .nav > li > a {
+    color: white;
+}
+.sidebar .nav > li > a:hover,
+.sidebar .nav > li > a:focus {
+  color: #ccc;
+
+}
+.sidebar .nav > .active > a,
+.sidebar .nav > .active > a:hover,
+.sidebar .nav > .active > a:focus {
+}
+.sidebar .nav > .open > a,
+.sidebar .nav > .open > a:hover,
+.sidebar .nav > .open > a:focus {
+    color: white;
+    background-color: #D5D5D5;
+}
+
+
+.sidebar .navbar-toggler .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgb(255,255,255)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+}
+.sidebar .navbar-brand{
+    margin-left:6px;    
+}
+@media (max-width: 991px) {
+  .sidebar .navbar-brand{
+    margin-left:75px;    
+}
+}
